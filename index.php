@@ -7,10 +7,6 @@
   <body>
     <?php
 
-
-    $tab = array("Name" => "Ivan",
-                 "Age" => 19);
-
     $notes = array('Jax' => 11,
                    'Ivan' => 12,
                    'Matt' => 13);
