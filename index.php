@@ -15,20 +15,22 @@
                    'Ivan' => 12,
                    'Matt' => 13);
 
-            echo "<table>";
-            echo "<tr>";
-            echo "<th> Nom </th>";
-            echo "<th> Notes </th>";
-            echo "</tr>";
-            foreach ($notes as $key => $value) {
-              echo "<tr><td> $key</td>";
-              echo "<td> $value</td></tr>";
+    $notes['Karim'] = 14;
 
-            }
+    echo "<table>";
+    echo "<tr>";
+    echo "<th> Nom </th>";
+    echo "<th> Notes </th>";
+    echo "</tr>";
+    foreach ($notes as $key => $value) {
+      echo "<tr><td> $key</td>";
+      echo "<td> $value</td></tr>";
+
+    }
 
 
 
-            echo "</table>";
+    echo "</table>";
     ?>
   </body>
 </html>
