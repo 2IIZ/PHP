@@ -1,23 +1,36 @@
 <?php
 
-$server ='localhost';
-$login ='root';
+$server = "localhost";
+$dbname = "manger";
+$user ='root';
 $pass ='';
-$bddName='mlr1';
 
 $valeur= filter_input_array(INPUT_POST);
 var_dump($valeur);
 
+ $name=$_POST['name'];
+ $email=$_POST['email'];
+ $pseudo=$_POST['pseudo'];
+ $password=$_POST['password'];
+
+
+
 try {
-    $dbh = new PDO('mysql:host='.$server.';dbname='.$bddName., $login, $pass);
+    $conn = new PDO("mysql:host=$server;dbname=$dbname", $user, $pass);
+    echo "Connected Successfully";
+
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    //insert data
+    $addUser = "INSERT INTO utilisateur (nom_utilisteur, mdp_utilisateur, pseudo_utilisateur, email_utilisateur)
+    VALUES ($name, $password, $pseudo, $email)";
+    // use exec() because no results are returned
+    $conn->exec($addUser);
+    echo "<br>New record created successfully";
+
 
 } catch (PDOException $e) {
     print "Erreur !: " . $e->getMessage() . "<br/>";
     die();
 }
-
-$req = $bdd->prepare('INSERT INTO utilisateur(nom_utilisateur, mdp_utilisateur, pseudo_utilisateur, email_utilisateur)
-VALUES(:nom_utilisateur, :mdp_utilisateur, :pseudo_utilisateur, :email_utilisateur)')
-or exit(print_r($bdd->errorInfo()));
 
 ?>

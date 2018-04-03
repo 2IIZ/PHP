@@ -46,13 +46,13 @@
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Please enter your password">
-					<input class="input100" type="password" name="password" placeholder="Password">
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your pseudo">
+					<input class="input100" type="text" name="pseudo" placeholder="Pseudo"></input>
 					<span class="focus-input100"></span>
 				</div>
 
-				<div class="wrap-input100 validate-input" data-validate = "Please enter your pseudo">
-					<input class="input100" type="text" name="pseudo" placeholder="Pseudo"></input>
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your password">
+					<input class="input100" type="password" name="password" placeholder="Password">
 					<span class="focus-input100"></span>
 				</div>
 
