@@ -10,10 +10,7 @@ var_dump($valeur);
 
 try {
     $dbh = new PDO('mysql:host='.$server.';dbname='.$bddName., $login, $pass);
-    foreach($dbh->query('SELECT * from recettes') as $row) {
-        print_r($row);
-    }
-    $dbh = null;
+
 } catch (PDOException $e) {
     print "Erreur !: " . $e->getMessage() . "<br/>";
     die();

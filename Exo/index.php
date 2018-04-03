@@ -23,10 +23,15 @@
       echo "<td> $value</td></tr>";
 
     }
-
-
-
     echo "</table>";
+
+    echo("<br>");
+    echo("max note :");
+    echo max($notes);
+    echo("<br>");
+    echo("min note :");
+    echo min($notes);
+
     ?>
   </body>
 </html>

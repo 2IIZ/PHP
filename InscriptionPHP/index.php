@@ -33,7 +33,7 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" action="script_inscription.php" method="POST">
 				<span class="contact100-form-title">
-					Send Us A Message
+					FORM
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
@@ -47,12 +47,12 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your password">
-					<input class="input100" type="password" name="password" placeholder="Phone">
+					<input class="input100" type="password" name="password" placeholder="Password">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your pseudo">
-					<input class="input100" name="message" placeholder="Your pseudo"></input>
+					<input class="input100" name="pseudo" placeholder="Pseudo"></input>
 					<span class="focus-input100"></span>
 				</div>
 
