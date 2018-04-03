@@ -52,10 +52,8 @@
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your pseudo">
-					<input class="input100" name="pseudo" placeholder="Pseudo"></input>
+					<input class="input100" type="text" name="pseudo" placeholder="Pseudo"></input>
 					<span class="focus-input100"></span>
-				</div>
-
 				</div>
 
 				<div class="container-contact100-form-btn">
@@ -66,6 +64,12 @@
 						</span>
 					</button>
 				</div>
+
+			</div>
+
+		</div>
+
+
 			</form>
 		</div>
 	</div>
