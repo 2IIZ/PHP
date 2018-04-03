@@ -13,6 +13,9 @@
 
     $notes['Karim'] = 14;
 
+    arsort($notes); //reverse ascending for "décroissant"
+
+
     echo "<table>";
     echo "<tr>";
     echo "<th> Nom </th>";
