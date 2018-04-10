@@ -11,5 +11,9 @@
 
     <h1>test</h1>
 
+    <form id="form" class="form-group" action="index.html" method="post">
+      
+    </form>
+
   </body>
 </html>
