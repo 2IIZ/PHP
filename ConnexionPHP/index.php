@@ -33,21 +33,12 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" action="script_inscription.php" method="POST">
 				<span class="contact100-form-title">
-					FORM
+					User alredy ? Sing in <br>
+					<a href="#">Sing UP</a>
+
 				</span>
-
-				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
-					<input class="input100" type="text" name="name" placeholder="Full Name">
-					<span class="focus-input100"></span>
-				</div>
-
 				<div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
 					<input class="input100" type="text" name="email" placeholder="E-mail">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="wrap-input100 validate-input" data-validate = "Please enter your pseudo">
-					<input class="input100" type="text" name="pseudo" placeholder="Pseudo"></input>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -60,7 +51,7 @@
 					<button class="contact100-form-btn" >
 						<span>
 							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
-							Send
+							GO
 						</span>
 					</button>
 				</div>
