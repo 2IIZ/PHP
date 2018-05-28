@@ -9,15 +9,11 @@ h1, p{
   color: #111;
 }
 
-.myForm{
-  padding-top: 10%;
+.welcomeTitle{
+  padding-top: 25%
+  color: white;
 }
 
-#login-card{
-  width: 450px;
-  margin: 200px  auto;
-}
-
-#container{
-  margin: 25px;
+.card {
+  margin: 1rem;
 }
