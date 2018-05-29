@@ -1,4 +1,4 @@
-//================To make an active Element================//
+//================To make an active Element========does not work with includes========//
 
 // Get the container element
 var linkContainer = document.getElementById("menu");
