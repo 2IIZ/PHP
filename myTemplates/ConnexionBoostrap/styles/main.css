@@ -1,8 +1,12 @@
 body {
     background-image: url('../img/img.jpg');
-    background-size: cover;
-    background-color: #333;
-    background-repeat: no-repeat;
+    background-size: cover; /* help with responsive image*/
+}
+
+html,
+body {
+  height: 100%; /*responsive image*/
+  background-color: #333;
 }
 
 h1, p{
@@ -10,7 +14,7 @@ h1, p{
 }
 
 .myForm{
-  padding-top: 10%;
+  margin-top: 10%;
 }
 
 #login-card{

@@ -12,37 +12,40 @@
   </head>
   <body>
 
-    <div id="login-card" class="card">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
+  <div id="login-card" class="card">
 
-  		<div class="card-body">
-        <h1>Sign in</h1>
+    <div class="card-body">
+      <h1>Sign in</h1>
 
-  			<form class="myForm" action="script_signin.php" method="POST">
+      <form class="myForm" action="script_signin.php" method="POST">
 
-  				<div class="form-group">
-            <label for="email">E-mail</label>
-  					<input class="form-control" type="text" id="email" name="email" placeholder="E-mail">
-  				</div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input class="form-control" type="text" id="email" name="email" placeholder="E-mail">
+        </div>
 
-  				<div class="form-group">
-            <label for="password">Password</label>
-  					<input class="form-control" type="password" id="password" name="password" placeholder="Password">
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" id="password" name="password" placeholder="Password">
 
-  				</div>
+        </div>
 
 
-          <p>Not a user ? <a href="inscription.php">Suscribe !</a></p>
+        <p>Not a user ? <a href="inscription.php">Suscribe !</a></p>
 
-  				<div>
-  					<button id="go" class="btn btn-primary" >
-  						<span>
-  							Go
-  						</span>
-  					</button>
-  				</div>
-        </form>
-			</div>
-	</div>
+        <div>
+          <button id="go" class="btn btn-primary" >
+            <span>
+              Go
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+</div>
+
+</div>
 
 
   </body>

@@ -9,16 +9,41 @@
     <link rel="stylesheet" href="master.css">
   </head>
   <body>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="ConnexionBoostrap/img/img.jpg" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Sing In</h5>
-        <p class="card-text">Basic Sing In form</p>
-        <a href="ConnexionBoostrap/index.php" class="btn btn-primary">Go</a>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+
+      <div class="card">
+        <img class="card-img-top" src="ConnexionBoostrap/img/img.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Sing In</h5>
+          <p class="card-text">Basic Sing In form</p>
+          <a href="ConnexionBoostrap/index.php" class="btn btn-primary">Go</a>
+        </div>
       </div>
+
+    </div>
+    <div class="col">
+
+      <div class="card">
+        <img class="card-img-top" src="CoverBoostrap/img/img.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Cover</h5>
+          <p class="card-text">Basic Cover for a website</p>
+          <a href="CoverBoostrap/index.php" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
     </div>
 
-    <h1 class="welcomeTitle">Welcome</h1>
+
+  </div>
+</div>
+
+
+
+
 
   </body>
 </html>
