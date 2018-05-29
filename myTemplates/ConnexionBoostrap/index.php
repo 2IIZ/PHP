@@ -12,7 +12,7 @@
   </head>
   <body>
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"> 
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <div id="login-card" class="card">
 
     <div class="card-body">
@@ -22,12 +22,12 @@
 
         <div class="form-group">
           <label for="email">E-mail</label>
-          <input class="form-control" type="text" id="email" name="email" placeholder="E-mail">
+          <input class="form-control" type="email" required="" id="email" name="email" placeholder="E-mail">
         </div>
 
         <div class="form-group">
           <label for="password">Password</label>
-          <input class="form-control" type="password" id="password" name="password" placeholder="Password">
+          <input class="form-control" type="password" required="" id="password" name="password" placeholder="Password">
 
         </div>
 
