@@ -13,13 +13,10 @@ h1, p{
   color: #111;
 }
 
-.myForm{
-  margin-top: 10%;
-}
-
 #login-card{
   width: 450px;
   margin: 200px  auto;
+  background-color: rgba(255, 255, 255, 0.8)
 }
 
 #container{

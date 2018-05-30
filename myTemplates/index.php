@@ -36,6 +36,18 @@
       </div>
 
     </div>
+    <div class="col">
+
+      <div class="card">
+        <img class="card-img-top" src="CoverBoostrap/img/img.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Dashboard</h5>
+          <p class="card-text">Dashboard</p>
+          <a href="DashboardBoostrap/index.php" class="btn btn-primary">Go</a>
+        </div>
+      </div>
+
+    </div>
 
 
   </div>
