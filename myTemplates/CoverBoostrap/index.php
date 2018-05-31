@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Home</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="main.css">
+    <?php include 'include/head.php.inc'; ?>
 
   </head>
   <body>
@@ -16,13 +12,27 @@
           <div  class="inner">
             <h3 class="masthead-brand">Cover</h3>
             <nav id="menu" class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link active" onclick="<?php $menu = 'home' ?>" href="">Home</a>
+              <a class="nav-link" onclick="<?php $menu = 'features' ?>" href="">Features</a>
               <a class="nav-link" href="#">Contact</a>
             </nav>
           </div>
         </header>
 
+
+        <?php
+
+
+        if ($menu = 'home') {
+          echo "show home";
+        } else if ($menu = 'features') {
+          echo "show features";
+        } else if ($menu = 'contact') {
+          echo "show contact";
+        }
+
+
+        ?>
         <main role="main" class="inner cover">
           <h1 class="cover-heading">Cover your page.</h1>
           <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
@@ -42,7 +52,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
       <script type="text/javascript" src="js/script.js"></script>
-      
+
 
   </body>
 </html>
