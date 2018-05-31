@@ -4,6 +4,6 @@ function sayHello($nom){
   echo "Hello " . $nom . " !!";
 }
 
-sayHello('Ivan')
+sayHello('Ivan');
 
  ?>
