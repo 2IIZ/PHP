@@ -8,16 +8,7 @@
   <body>
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-          <div  class="inner">
-            <h3 class="masthead-brand">Cover</h3>
-            <nav id="menu" class="nav nav-masthead justify-content-center">
-              <a class="nav-link active" onclick="<?php $menu = 'home' ?>" href="">Home</a>
-              <a class="nav-link" onclick="<?php $menu = 'features' ?>" href="">Features</a>
-              <a class="nav-link" href="#">Contact</a>
-            </nav>
-          </div>
-        </header>
+        
 
 
         <?php
